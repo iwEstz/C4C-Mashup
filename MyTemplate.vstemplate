@@ -1,0 +1,30 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>BuildMahsUpData (In Development)</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>SAP</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>BuildMahsUpData (In Development)</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Y1UDYV1IY.myproj" File="Y1UDYV1IY.myproj" ReplaceParameters="true">
+      <Folder Name="MashupConfiguration" TargetFolderName="MashupConfiguration" />
+      <ProjectItem ReplaceParameters="false" TargetFileName="PortTypePackage1.PTP.uicomponent">PortTypePackage1.PTP.uicomponent</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ZMashupTest.bo">ZMashupTest.bo</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ZMashupTest_Screen_OVS.OVS.uicomponent">ZMashupTest_Screen_OVS.OVS.uicomponent</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ZMashupTest_Screen_OWL.OWL.uicomponent">ZMashupTest_Screen_OWL.OWL.uicomponent</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ZMashupTest_Screen_QC.QC.uicomponent">ZMashupTest_Screen_QC.QC.uicomponent</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ZMashupTest_Screen_QV.QV.uicomponent">ZMashupTest_Screen_QV.QV.uicomponent</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ZMashupTest_Screen_TI.TI.uicomponent">ZMashupTest_Screen_TI.TI.uicomponent</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ZMashupTest_Screen_TT.TT.uidataobject">ZMashupTest_Screen_TT.TT.uidataobject</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ZMashupTest_Screen_WCView.WCVIEW.uiwocview">ZMashupTest_Screen_WCView.WCVIEW.uiwocview</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

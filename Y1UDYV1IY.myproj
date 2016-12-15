@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{a400c900-e15e-4099-ae5f-2b20eaa0bac6}</ProjectGuid>
+    <ProjectType>CopernicusProject</ProjectType>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>Y1UDYV1IY</Name>
+    <RootNamespace>Y1UDYV1IY</RootNamespace>
+    <RepositoryNamespace>http://refsystems.sap.com/Y1UDYV1IY_</RepositoryNamespace>
+    <RuntimeNamespacePrefix>Y1UDYV1IY_</RuntimeNamespacePrefix>
+    <RepositoryRootFolder>/Y1UDYV1IY_MAIN</RepositoryRootFolder>
+    <DefaultProcessComponent>Y1UDYV1IY_Y1UDYV1IY</DefaultProcessComponent>
+    <DevelopmentPackage>$Y1UDYV1IY_DEV</DevelopmentPackage>
+    <XRepSolution>Y1UDYV1IY_MAIN</XRepSolution>
+    <BCSourceFolderInXRep>/Y1UDYV1IY_BC/SRC</BCSourceFolderInXRep>
+    <ProjectSourceFolderinXRep>/Y1UDYV1IY_MAIN/SRC</ProjectSourceFolderinXRep>
+    <DeploymentUnit>FOUNDATION</DeploymentUnit>
+    <CompilerVersion>1302_FP15</CompilerVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="PortTypePackage1.PTP.uicomponent">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ZMashupTest.bo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ZMashupTest_Screen_OVS.OVS.uicomponent">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ZMashupTest_Screen_OWL.OWL.uicomponent">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ZMashupTest_Screen_QC.QC.uicomponent">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ZMashupTest_Screen_QV.QV.uicomponent">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ZMashupTest_Screen_TI.TI.uicomponent">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ZMashupTest_Screen_TT.TT.uidataobject">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ZMashupTest_Screen_WCView.WCVIEW.uiwocview">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
