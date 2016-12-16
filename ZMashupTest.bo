@@ -14,5 +14,6 @@ businessobject ZMashupTest {
         // - Code completion is available with CTRL + SPACE.
 
 		element customer_account:LANGUAGEINDEPENDENT_MEDIUM_Name;
+		element customer_name:LANGUAGEINDEPENDENT_MEDIUM_Name;
 
 }
